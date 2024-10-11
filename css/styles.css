@@ -1,3 +1,5 @@
+* {
+    box-sizing: border-box;}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -19,6 +21,7 @@ address {
 button {
     font-family: inherit;
 }
+.container {}
 
 /*---------------- HEADER------------------- */
 
@@ -36,7 +39,7 @@ button {
     color: #2e2f42;
 }
 
-.header-menu-link {
+.menu-link {
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
@@ -44,26 +47,26 @@ button {
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.menu-link:hover,
+.menu-link:focus {
     color: #404bbf;
 }
 
-.header-menu-item {
+.menu-item {
 }
 
 
-.header-contacts-link {
+.contacts-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     
 }
-.header-contacts-list {
+.contacts-list {
 }
-.header-contacts-link:hover,
-.header-contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
@@ -98,15 +101,15 @@ button {
     background-color: #404BBF;
 }
 /* -------features --------------*/
-.features {}
+.information {}
 
 .visually-hidden {}
 
-.features-list {}
+.information-list {}
 
-.features-item {}
+.information-item {}
 
-.features-item-title {
+.information-item-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -114,7 +117,7 @@ button {
         color: #2e2f42;
 }
 
-.features-item-description {
+.information-item-description {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -122,7 +125,7 @@ button {
         color: #434455;
 }
 
-.team-container {
+.team {
     background-color: #f4f4fd;
 }
 
@@ -136,13 +139,13 @@ button {
         text-transform: capitalize;
 }
 
-.wrapper {}
+.team-list {}
 
 .team-item {
     background-color: #FFFFFF;
 }
 
-.tean-item-image {}
+.team-item-image {}
 
 .team-item-title {
     font-weight: 500;
