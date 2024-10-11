@@ -53,6 +53,7 @@ margin: 0 auto;
 /*---------------- HEADER------------------- */
 .header {
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
 }
 
 .header-container {
@@ -201,8 +202,7 @@ margin-right: auto;
 .information-item {
     max-width: 264px;
     display: block;
-    width: calc((100%-3*24px)/4);
-
+width calc((100% - 3 * 24px) / 4);
 }
 
 .information-item-title {
@@ -223,11 +223,15 @@ margin-right: auto;
 }
 /*------------ team -----------------*/
 .team-conteiner {
-    padding-top: 120px;
-    padding-left: 120px;
+    padding: 120px 0 120px;
 }
+
 .team {
     background-color: #f4f4fd;
+}
+
+.people {
+    padding: 32px 0;
 }
 
 .team-title {
@@ -244,8 +248,8 @@ margin-right: auto;
 .team-list {
     display: flex;
         flex-wrap: wrap;
-        width: calc((100%-72px)/4);
         padding-bottom: 120px;
+        width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-item {
@@ -256,8 +260,11 @@ margin-right: auto;
         justify-content: center;
         flex-direction: column;
         border-radius: 0 0 4px 4px;
+        margin-right: 24px;
 }
-
+.team-item:last-child {
+    margin-right: 0;
+}
 .team-item-image {
     margin-bottom: 32px;
 }
@@ -270,6 +277,7 @@ margin-right: auto;
         text-align: center;
         color: #2e2f42;
         margin-bottom: 8px;
+        text-align: center;
 }
 
 .team-item-description {
@@ -280,6 +288,7 @@ margin-right: auto;
         text-align: center;
         color: #434455;
         margin-bottom: 32px;
+        text-align: center;
 }
 
 /* -----------------portfolio-------------------- */
