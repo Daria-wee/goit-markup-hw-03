@@ -143,6 +143,16 @@ margin: 0 auto;
     text-align: center;
     color: #fff;
     line-height: 1.07;
+    display: block;
+    margin-bottom: 48px;
+    max-width: 496px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-btn {
@@ -154,6 +164,19 @@ margin: 0 auto;
     color: #fff;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 4px;
+    border: none;
+    min-width: 169px;
+    height: 56px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 .hero-btn:hover {
     background-color: #404BBF;
@@ -164,11 +187,23 @@ margin: 0 auto;
 /* -------features --------------*/
 .information {}
 
-.visually-hidden {}
+.information-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-.information-list {}
+.information-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
 
-.information-item {}
+.information-item {
+    max-width: 264px;
+    display: block;
+    width: calc((100%-3*24px)/4);
+
+}
 
 .information-item-title {
     font-weight: 500;
@@ -176,6 +211,7 @@ margin: 0 auto;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .information-item-description {
@@ -185,7 +221,11 @@ margin: 0 auto;
         letter-spacing: 0.02em;
         color: #434455;
 }
-
+/*------------ team -----------------*/
+.team-conteiner {
+    padding-top: 120px;
+    padding-left: 120px;
+}
 .team {
     background-color: #f4f4fd;
 }
@@ -198,12 +238,14 @@ margin: 0 auto;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 .team-list {}
 
 .team-item {
     background-color: #FFFFFF;
+    display: block;
 }
 
 .team-item-image {}
@@ -228,7 +270,17 @@ margin: 0 auto;
 
 /* -----------------portfolio-------------------- */
 .portfolio {}
+.portfolio-conteiner {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.portfolio-item{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+        margin-right: auto;
+}
 .portfolio-title {
     font-weight: 700;
         font-size: 36px;
@@ -237,15 +289,21 @@ margin: 0 auto;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 .portfolio-list {
     line-height: 1.11;
     text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100%-48px)/3);
+    gap: 24px;
 }
 
 
 .portfolio-item-image{
+    margin-bottom: 32px;
 }
 
 .portfolio-item-title {
@@ -254,6 +312,7 @@ margin: 0 auto;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .portfolio-item-description {
@@ -262,6 +321,7 @@ margin: 0 auto;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-bottom: 32px;
 }
 /*-------------------------footer---------------------- */
 .footer {
