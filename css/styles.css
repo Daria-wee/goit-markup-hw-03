@@ -241,14 +241,26 @@ margin-right: auto;
         margin-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+        flex-wrap: wrap;
+        width: calc((100%-72px)/4);
+        padding-bottom: 120px;
+}
 
 .team-item {
     background-color: #FFFFFF;
     display: block;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 0 0 4px 4px;
 }
 
-.team-item-image {}
+.team-item-image {
+    margin-bottom: 32px;
+}
 
 .team-item-title {
     font-weight: 500;
@@ -257,6 +269,7 @@ margin-right: auto;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .team-item-description {
@@ -266,6 +279,7 @@ margin-right: auto;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        margin-bottom: 32px;
 }
 
 /* -----------------portfolio-------------------- */
