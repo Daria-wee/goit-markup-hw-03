@@ -140,6 +140,8 @@ margin: 0 auto;
 /* ---------hero--------------- */
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+     padding-bottom: 188px;
 }
 
 .hero-title {
@@ -157,8 +159,6 @@ margin-right: auto;
 
 }
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .hero-btn {
@@ -207,9 +207,11 @@ margin-right: auto;
 .information-item {
     max-width: 264px;
     display: block;
+
+}
+.information-item:first-child {
     flex-basis: calc((100% - 72px) / 4);
 }
-
 .information-item-title {
     font-weight: 500;
         font-size: 20px;
