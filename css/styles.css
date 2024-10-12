@@ -247,8 +247,9 @@ margin-right: auto;
 
 .team-list {
     display: flex;
-        flex-wrap: wrap;
-        padding-bottom: 120px;
+    flex-wrap: wrap;
+    
+    /align-items: center;
 }
 
 .team-item {
