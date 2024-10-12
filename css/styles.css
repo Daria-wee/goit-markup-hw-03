@@ -191,11 +191,13 @@ margin-right: auto;
     background-color: #404BBF;
 }
 /* -------features --------------*/
-.information {}
-
-.information-container{
+.information {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.information-container{
+
 }
 
 .information-list {
@@ -206,11 +208,12 @@ margin-right: auto;
 
 .information-item {
     max-width: 264px;
+    flex-basis: calc((100% - 72px) / 4);
     display: block;
 
 }
 .information-item:first-child {
-    flex-basis: calc((100% - 72px) / 4);
+
 }
 .information-item-title {
     font-weight: 500;
