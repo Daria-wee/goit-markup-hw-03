@@ -207,9 +207,8 @@ margin-right: auto;
 }
 
 .information-item {
-    max-width: 264px;
-    flex-basis: calc((100% - 72px) / 4);
     display: block;
+    width: calc((100% - 72px) / 4);
 
 }
 .information-item:first-child {
