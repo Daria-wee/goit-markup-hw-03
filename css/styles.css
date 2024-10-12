@@ -41,7 +41,12 @@ h6 {
 a {
     text-decoration: none;
 }
-
+.people {
+    max-width: 1158 px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+}
 .container { 
 max-width: 1158 px;
 padding-left: 15px;
@@ -223,11 +228,12 @@ margin-right: auto;
 }
 /*------------ team -----------------*/
 .team-conteiner {
-    padding: 120px 0 120px;
 }
 
 .team {
     background-color: #f4f4fd;
+    padding-top: 120px;
+     padding-bottom: 120px;
 }
 
 .people {
@@ -293,10 +299,11 @@ margin-right: auto;
 }
 
 /* -----------------portfolio-------------------- */
-.portfolio {}
-.portfolio-conteiner {
+.portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.portfolio-conteiner {
 }
 .portfolio-content {
     padding: 32px 16px;
@@ -308,8 +315,8 @@ margin-right: auto;
     display: flex;
     flex-direction: column;
     margin-left: auto;
-        margin-right: auto;
-        width: calc((100%-48px)/3);
+    margin-right: auto;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-title {
     font-weight: 700;
