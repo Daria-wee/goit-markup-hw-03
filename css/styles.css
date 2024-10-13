@@ -53,6 +53,9 @@ padding-right: 15px;
 margin: 0 auto;
 }
 
+img {
+    display: block;
+}
 
 /*---------------- HEADER------------------- */
 .header {
@@ -273,7 +276,6 @@ margin-right: auto;
     margin-right: 0;
 }
 .team-item-image {
-    display: block;
 }
 
 .team-item-title {
